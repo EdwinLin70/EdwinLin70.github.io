@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="http://example.com/archives/2026/03/"/>
+  <link rel="canonical" href="https://edwinlin70.github.io/archives/2026/03/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,16 +33,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>Archive: 2026/3 - Edwin的幸福生活</title>
-  <meta name="keywords" content="null">
-  <meta desc name="description" content="Edwin的幸福生活 - Edwin Lin - Edwin的幸福生活">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Edwin的幸福生活">
-<meta property="og:url" content="http://example.com/archives/2026/03/index.html">
-<meta property="og:site_name" content="Edwin的幸福生活">
+  <title>Archive: 2026/3 - Edwin的个人网站</title>
+  <meta name="keywords" content="Edwin Lin,Computer Science,Hexo,Blog">
+  <meta desc name="description" content="记录学习、项目和生活 - Edwin Lin - Edwin的个人网站">
+  
+<meta property="og:type" content="website">
+<meta property="og:title" content="Edwin的个人网站">
+<meta property="og:url" content="https://edwinlin70.github.io/archives/2026/03/index.html">
+<meta property="og:site_name" content="Edwin的个人网站">
+<meta property="og:description" content="记录学习、项目和生活">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:author" content="Edwin Lin">
+<meta property="article:tag" content="Blog">
+<meta property="article:tag" content="Computer Science">
+<meta property="article:tag" content="Edwin Lin">
+<meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -51,28 +57,28 @@
   display: none;
 }
 :root {
-  --color-site-body: #f4f4f4;
-  --color-site-bg: #f4f4f4;
+  --color-site-body: #f7f9fc;
+  --color-site-bg: #f7f9fc;
   --color-site-inner: #fff;
   --color-site-footer: #666;
   --color-card: #fff;
-  --color-text: #444;
-  --color-block: #f6f6f6;
-  --color-inlinecode: #c74f00;
-  --color-codeblock: #fff7ea;
-  --color-h1: #3a3a3a;
-  --color-h2: #3a3a3a;
+  --color-text: #333;
+  --color-block: #f3f5f7;
+  --color-inlinecode: #7c4dff;
+  --color-codeblock: #f8f3ff;
+  --color-h1: #222;
+  --color-h2: #2a2a2a;
   --color-h3: #333;
   --color-h4: #444;
   --color-h5: #555;
   --color-h6: #666;
   --color-p: #444;
-  --color-list: #666;
-  --color-list-hl: #30ad91;
-  --color-meta: #888;
+  --color-list: #555;
+  --color-list-hl: #222;
+  --color-meta: #777;
   --color-read-bkg: #e0d8c8;
   --color-read-post: #f8f1e2;
-  --color-copyright-bkg: #f5f5f5;
+  --color-copyright-bkg: #f1f3f5;
   --link-color: #00323c;
 }
 * {
@@ -91,13 +97,13 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #5b8def;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
 }
 *::-webkit-scrollbar-thumb:hover {
-  background: #ff5722;
+  background: #7c4dff;
 }
 html {
   color: var(--color-text);
@@ -114,19 +120,19 @@ html >::-webkit-scrollbar-track-piece {
   background: transparent;
 }
 html >::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #5b8def;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
 }
 html >::-webkit-scrollbar-thumb:hover {
-  background: #ff5722;
+  background: #7c4dff;
 }
 body {
   background-color: var(--color-site-body);
   text-rendering: optimizelegibility;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  line-height: 1.6;
+  line-height: 1.75;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -143,7 +149,7 @@ body.modal-active {
   }
 }
 a {
-  color: #2092ec;
+  color: #4a7dff;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.28s ease;
@@ -154,7 +160,7 @@ a {
   -ms-transition: all 0.28s ease;
 }
 a:hover {
-  color: #ff5722;
+  color: #7c4dff;
 }
 a:active,
 a:hover {
@@ -190,7 +196,7 @@ hr {
   border: 0;
   border-radius: 1px;
   -webkit-border-radius: 1px;
-  border-bottom: 1px solid rgba(68,68,68,0.1);
+  border-bottom: 1px solid rgba(51,51,51,0.1);
 }
 button,
 input {
@@ -531,7 +537,7 @@ button {
     font-size: 3rem;
   }
   .cover-wrapper .cover-body .subtitle {
-    font-size: 1.05rem;
+    font-size: 1.02rem;
   }
   .cover-wrapper .cover-body .logo {
     max-height: 150px;
@@ -581,7 +587,7 @@ button {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   -webkit-appearance: none;
   padding-left: 36px;
   border-radius: 1.4rem;
@@ -623,8 +629,8 @@ button {
   -o-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   align-items: stretch;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -702,7 +708,7 @@ button {
   margin-right: 4px;
 }
 .cover-wrapper.search .bottom .menu .list-h a p {
-  font-size: 0.9375rem;
+  font-size: 0.95rem;
 }
 .cover-wrapper.search .bottom .menu .list-h a:hover,
 .cover-wrapper.search .bottom .menu .list-h a.active,
@@ -715,8 +721,8 @@ button {
 .cover-wrapper.dock .menu,
 .cover-wrapper.featured .menu,
 .cover-wrapper.focus .menu {
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
 }
 .cover-wrapper.dock .menu .list-h a,
 .cover-wrapper.featured .menu .list-h a,
@@ -731,12 +737,12 @@ button {
   align-items: center;
   padding: 12px;
   line-height: 24px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
   border-bottom: none;
   text-align: center;
   align-content: flex-end;
-  color: rgba(68,68,68,0.7);
+  color: rgba(51,51,51,0.7);
   font-size: 1.5rem;
 }
 @media screen and (max-width: 500px) {
@@ -754,7 +760,7 @@ button {
 .cover-wrapper.dock .menu .list-h a p,
 .cover-wrapper.featured .menu .list-h a p,
 .cover-wrapper.focus .menu .list-h a p {
-  font-size: 0.875rem;
+  font-size: 0.85rem;
 }
 .cover-wrapper.dock .menu .list-h a.active,
 .cover-wrapper.featured .menu .list-h a.active,
@@ -768,7 +774,7 @@ button {
 .cover-wrapper.dock .menu .list-h a.active i+p,
 .cover-wrapper.featured .menu .list-h a.active i+p,
 .cover-wrapper.focus .menu .list-h a.active i+p {
-  color: #3dd9b6;
+  color: #5b8def;
 }
 .cover-wrapper.dock .menu .list-h a.active img+p,
 .cover-wrapper.featured .menu .list-h a.active img+p,
@@ -813,13 +819,13 @@ button {
     background: transparent;
   }
   .cover-wrapper.dock .menu .list-h::-webkit-scrollbar-thumb {
-    background: #3dd9b6;
+    background: #5b8def;
     cursor: pointer;
     border-radius: 0;
     -webkit-border-radius: 0;
   }
   .cover-wrapper.dock .menu .list-h::-webkit-scrollbar-thumb:hover {
-    background: #ff5722;
+    background: #7c4dff;
   }
 }
 @supports (backdrop-filter: blur(20px)) {
@@ -966,7 +972,7 @@ button {
   height: 64px;
 }
 .l_header .nav-sub {
-  max-width: 1080px;
+  max-width: 1100px;
   margin: auto;
 }
 .l_header .nav-sub .title {
@@ -1041,7 +1047,7 @@ button {
   -moz-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
   -ms-transition: all 0.28s ease;
-  color: #3dd9b6;
+  color: #5b8def;
 }
 .l_header .switcher >li >a:hover {
   border: none;
@@ -1160,9 +1166,9 @@ button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding-left: 40px;
-  font-size: 0.875rem;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
+  font-size: 0.85rem;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
   border: none;
   transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
@@ -1221,7 +1227,7 @@ ul.m-pc >li>a {
 }
 ul.m-pc >li>a:active,
 ul.m-pc >li>a.active {
-  border-bottom: 2px solid #3dd9b6;
+  border-bottom: 2px solid #5b8def;
 }
 ul.m-pc li:hover >ul.list-v,
 ul.list-v li:hover >ul.list-v {
@@ -1248,8 +1254,8 @@ ul.nav-list-h>li {
   -ms-justify-content: center;
   height: 100%;
   line-height: 2.4;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 ul.nav-list-h>li >a {
   -webkit-font-smoothing: antialiased;
@@ -1265,9 +1271,9 @@ ul.list-v {
   background: var(--color-card);
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.08), 0 4px 8px 0px rgba(0,0,0,0.08), 0 8px 16px 0px rgba(0,0,0,0.08);
   -webkit-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.08), 0 4px 8px 0px rgba(0,0,0,0.08), 0 8px 16px 0px rgba(0,0,0,0.08);
-  margin-top: -6px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  margin-top: -10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   padding: 8px 0;
 }
 ul.list-v.show {
@@ -1315,7 +1321,7 @@ ul.list-v >li>a {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
   color: var(--color-list);
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   font-weight: bold;
   line-height: 36px;
   padding: 0 20px 0 16px;
@@ -1360,7 +1366,7 @@ ul.list-v >li>a:hover {
 }
 .l_header ul.nav-list-h>li >a:active,
 .l_header ul.nav-list-h>li >a.active {
-  color: #3dd9b6;
+  color: #5b8def;
 }
 .l_header ul.nav-list-h>li:hover>a {
   color: var(--color-list-hl);
@@ -1548,7 +1554,7 @@ ul.list-v >li>a:hover {
   right: calc(100% - 0.5 * 16px);
 }
 #wrapper {
-  max-width: 1080px;
+  max-width: 1100px;
   margin: auto;
 }
 @media screen and (min-width: 2048px) {
@@ -1593,16 +1599,16 @@ ul.list-v >li>a:hover {
 .l_header {
   max-width: 65vw;
   left: calc((100% - 65vw) * 0.5);
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 @media screen and (max-width: 2048px) {
   .l_header {
-    max-width: 1112px;
-    left: calc((100% - 1112px) * 0.5);
+    max-width: 1132px;
+    left: calc((100% - 1132px) * 0.5);
   }
 }
-@media screen and (max-width: 1112px) {
+@media screen and (max-width: 1132px) {
   .l_header {
     left: 0;
     border-radius: 0;
@@ -2108,7 +2114,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1773181139575),
+    lastupdate: new Date(1773183448988),
     cdn: {
       izitoast_css: 'https://unpkg.com/izitoast@1.4.0/dist/css/iziToast.min.css',
       izitoast_js: 'https://unpkg.com/izitoast@1.4.0/dist/js/iziToast.min.js',
@@ -2116,8 +2122,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       fancybox_js: 'https://unpkg.com/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.umd.js'
     },
     sidebar: {
-      for_page: ["blogger","category","tagcloud","donate"],
-      for_post: ["toc"],
+      for_page: ["blogger","category","tagcloud"],
+      for_post: ["toc","blogger"],
       webinfo: {
         lastupd: {
           enable: true,
@@ -2165,7 +2171,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin begin-->
     
     <!-- Custom Files bodyBegin end-->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow blur " style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2182,9 +2188,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/Logo-NavBar@3x.png'/>
+          
+            <i class='fa-solid fa-laptop-code'></i>
           
           
+            Edwin Lin
           
         </a>
       
@@ -2198,13 +2206,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="博客"
+                href="/" title="Home"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>博客
+                  <i class='fa-solid fa-house fa-fw'></i>Home
                 </a>
                 
               </li>
@@ -2215,47 +2223,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
-                </a>
-                
-              </li>
-            
-          
-          
-            
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
-                  
-                  
-                  
-                    active-action="action-tags"
-                  >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
-                </a>
-                
-              </li>
-            
-          
-          
-            
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
+                href="/archives/" title="Archives"
                   
                   
                   
                     active-action="action-archives"
                   >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                  <i class='fa-solid fa-box-archive fa-fw'></i>Archives
                 </a>
                 
               </li>
@@ -2266,13 +2240,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
+                href="/categories/" title="Categories"
                   
                   
                   
-                    active-action="action-friends"
+                    active-action="action-categories"
                   >
-                  <i class='fa-solid fa-link fa-fw'></i>友链
+                  <i class='fa-solid fa-folder-open fa-fw'></i>Categories
                 </a>
                 
               </li>
@@ -2283,13 +2257,30 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
+                href="/tags/" title="Tags"
+                  
+                  
+                  
+                    active-action="action-tags"
+                  >
+                  <i class='fa-solid fa-tags fa-fw'></i>Tags
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/about/" title="About"
                   
                   
                   
                     active-action="action-about"
                   >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
+                  <i class='fa-solid fa-user fa-fw'></i>About
                 </a>
                 
               </li>
@@ -2319,13 +2310,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="博客"
+                href="/" title="Home"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>博客
+                  <i class='fa-solid fa-house fa-fw'></i>Home
                 </a>
                 
               </li>
@@ -2336,47 +2327,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
-                </a>
-                
-              </li>
-            
-          
-            
-              
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
-                  
-                  
-                  
-                    active-action="action-tags"
-                  >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
-                </a>
-                
-              </li>
-            
-          
-            
-              
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
+                href="/archives/" title="Archives"
                   
                   
                   
                     active-action="action-archives"
                   >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                  <i class='fa-solid fa-box-archive fa-fw'></i>Archives
                 </a>
                 
               </li>
@@ -2387,13 +2344,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
+                href="/categories/" title="Categories"
                   
                   
                   
-                    active-action="action-friends"
+                    active-action="action-categories"
                   >
-                  <i class='fa-solid fa-link fa-fw'></i>友链
+                  <i class='fa-solid fa-folder-open fa-fw'></i>Categories
                 </a>
                 
               </li>
@@ -2404,13 +2361,30 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
+                href="/tags/" title="Tags"
+                  
+                  
+                  
+                    active-action="action-tags"
+                  >
+                  <i class='fa-solid fa-tags fa-fw'></i>Tags
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/about/" title="About"
                   
                   
                   
                     active-action="action-about"
                   >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
+                  <i class='fa-solid fa-user fa-fw'></i>About
                 </a>
                 
               </li>
@@ -2435,14 +2409,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       <div class="cover-wrapper  dock" id='half'>
         
-  <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
+  <div class='cover-bg lazyload placeholder' data-bg="/img/cover.jpg"></div>
 
 <div class='cover-body'>
   <div class='top'>
     
     
-      <p class="title">Volantis</p>
+      <p class="title">Edwin Lin</p>
     
+    
+      <p class="subtitle">CS · Projects · Notes · Life</p>
     
   </div>
   <div class='bottom'>
@@ -2450,46 +2426,32 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class='list-h'>
         
           
-            <a href="/v4/getting-started/"
+            <a target="_blank" rel="noopener" href="https://github.com/EdwinLin70"
               
               
-              active-action="action-v4getting-started">
-              <img src='https://unpkg.com/volantis-static@0.0.1660614606622/media/twemoji/assets/svg/1f5c3.svg'><p>文档</p>
+              active-action="action-https:githubcomEdwinLin70">
+              <i class='fa-brands fa-github fa-fw'></i><p>GitHub</p>
             </a>
           
-            <a href="/faqs/"
+            <a target="_blank" rel="noopener" href="https://linkedin.com/in/edwin-lin-6b3518338"
               
               
-              active-action="action-faqs">
-              <img src='https://unpkg.com/volantis-static@0.0.1660614606622/media/twemoji/assets/svg/1f516.svg'><p>帮助</p>
-            </a>
-          
-            <a href="/examples/"
-              
-              
-              active-action="action-examples">
-              <img src='https://unpkg.com/volantis-static@0.0.1660614606622/media/twemoji/assets/svg/1f396.svg'><p>示例</p>
-            </a>
-          
-            <a href="/contributors/"
-              
-              
-              active-action="action-contributors">
-              <img src='https://unpkg.com/volantis-static@0.0.1660614606622/media/twemoji/assets/svg/1f389.svg'><p>社区</p>
+              active-action="action-https:linkedincominedwin-lin-6b3518338">
+              <i class='fa-brands fa-linkedin fa-fw'></i><p>LinkedIn</p>
             </a>
           
             <a href="/archives/"
               
               
               active-action="action-archives">
-              <img src='https://unpkg.com/volantis-static@0.0.1660614606622/media/twemoji/assets/svg/1f4f0.svg'><p>博客</p>
+              <i class='fa-solid fa-box-archive fa-fw'></i><p>Archives</p>
             </a>
           
-            <a target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/"
+            <a href="/about/"
               
               
-              active-action="action-https:githubcomvolantis-xhexo-theme-volantis">
-              <img src='https://unpkg.com/volantis-static@0.0.1660614606622/media/twemoji/assets/svg/1f9ec.svg'><p>源码</p>
+              active-action="action-about">
+              <i class='fa-solid fa-user fa-fw'></i><p>About</p>
             </a>
           
         
@@ -2523,14 +2485,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         
           <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2026/03/10/开博大吉/">
+            <div class="post post-v3 white-box reveal shadow"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://edwinlin70.github.io/2026/03/10/开博大吉/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Edwin的幸福生活">
+    <meta itemprop="name" content="Edwin的个人网站">
   </span>
   <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="name" content="开博大吉">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content="记录学习、项目和生活">
   </span>
   
   
@@ -2579,14 +2541,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         
           <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2026/03/10/hello-world/">
+            <div class="post post-v3 white-box reveal shadow"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://edwinlin70.github.io/2026/03/10/hello-world/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Edwin的幸福生活">
+    <meta itemprop="name" content="Edwin的个人网站">
   </span>
   <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="name" content="Hello World">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content="记录学习、项目和生活">
   </span>
   
   
@@ -2653,18 +2615,20 @@ Qu...
   <div class='content'>
     
       
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/Logo-NavBar@3x.png'/>
+        <a class='avatar flat-box circle' href='/about/'>
+          <img no-lazy src='/img/avatar.jpg'/>
         </a>
       
     
     
       <div class='text'>
         
+          <h2>Edwin Lin</h2>
         
         
-          <p><span id="jinrishici-sentence">Edwin的幸福生活</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+          <p>CS student @ Pitt</p>
+
+        
         
       </div>
     
@@ -2672,8 +2636,8 @@ Qu...
       <div class="social-wrapper">
         
           
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
+            <a href="https://github.com/EdwinLin70"
+              class="social fa-brands fa-github flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
@@ -2681,26 +2645,17 @@ Qu...
           
         
           
-            <a href="mailto:me@xxx.com"
+            <a href="https://linkedin.com/in/edwin-lin-6b3518338"
+              class="social fa-brands fa-linkedin flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="mailto:your-email@example.com"
               class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
@@ -2731,8 +2686,6 @@ Qu...
     
   
 
-  
-
 
 <div class="widget-sticky">
 
@@ -2751,29 +2704,28 @@ Qu...
     <br><br>
     
       
-        <div class="aplayer-container">
-          
-
-
-        </div>
-      
-    
-      
         <br>
         <div class="social-wrapper" itemprop="about" itemscope itemtype="http://schema.org/Thing">
           
             
-          
+              <a href="https://github.com/EdwinLin70"
+                class="social fa-brands fa-github flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
             
           
+            
+              <a href="https://linkedin.com/in/edwin-lin-6b3518338"
+                class="social fa-brands fa-linkedin flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
             
           
         </div>
-      
-    
-      
-        <div><p>Blog content follows the <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a></p>
-</div>
       
     
       
@@ -2784,7 +2736,7 @@ Qu...
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2017 XXX</a></p>
+        <p>Copyright © 2026 Edwin Lin</p>
 
         </div>
       
@@ -2913,54 +2865,6 @@ Qu...
 
 
 
-      <script>
-  volantis.layoutHelper("comments",`<div id="giscus_container"></div>`)
-
-  volantis.giscus = {};
-
-  function check_giscus() {
-    if (volantis.dark.mode === "dark") {
-      volantis.giscus.Theme = 'dark';
-    } else {
-      volantis.giscus.Theme = 'light';
-    }
-
-    return document.getElementById("giscus_container");
-  }
-
-  function p_giscus() {
-    const HEAD = check_giscus();
-    if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"}},pdata.commentConfig)
-    const script = document.createElement('script');
-    script.setAttribute('src', 'https://giscus.app/client.js');
-    Object.keys(cfg).forEach(k=>{
-      if (k != "theme") {
-        script.setAttribute('data-'+k, cfg[k]);
-      }
-    })
-    script.setAttribute('data-theme', volantis.giscus.Theme);
-    script.setAttribute('crossorigin', "anonymous");
-    HEAD.appendChild(script);
-  }
-
-  function dark_giscus() {
-    const HEAD = check_giscus();
-    if (!HEAD) return;
-
-    const message = {
-      setConfig: {
-        theme: volantis.giscus.Theme
-      }
-    };
-    const giscusIframe = document.querySelector('iframe.giscus-frame');
-    giscusIframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-  }
-  p_giscus();
-  volantis.dark.push(dark_giscus);
-</script>
-
-    
 
 
 
@@ -3229,7 +3133,7 @@ Qu...
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Edwin的幸福生活","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Edwin Lin","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Edwin的幸福生活"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/archives/","name":"Archive"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/archives/2026/","name":"2026"}},{"@type":"ListItem","position":4,"item":{"@id":"http://example.com/archives/2026/3/","name":"3"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Edwin的幸福生活","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"Edwin Lin","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Edwin的幸福生活","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Edwin Lin","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Edwin的幸福生活","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Edwin的个人网站","url":"https://edwinlin70.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Edwin Lin","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://edwinlin70.github.io/","sameAs":["https://github.com/volantis-x"],"description":"记录学习、项目和生活"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://edwinlin70.github.io/","name":"Edwin的个人网站"}},{"@type":"ListItem","position":2,"item":{"@id":"https://edwinlin70.github.io/archives/","name":"Archive"}},{"@type":"ListItem","position":3,"item":{"@id":"https://edwinlin70.github.io/archives/2026/","name":"2026"}},{"@type":"ListItem","position":4,"item":{"@id":"https://edwinlin70.github.io/archives/2026/3/","name":"3"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Edwin的个人网站","url":"https://edwinlin70.github.io/","keywords":["Edwin Lin","Computer Science","Hexo","Blog"],"description":"记录学习、项目和生活","author":{"@type":"Person","name":"Edwin Lin","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://edwinlin70.github.io/","description":"记录学习、项目和生活"},"publisher":{"@type":"Organization","name":"Edwin的个人网站","url":"https://edwinlin70.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://edwinlin70.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"记录学习、项目和生活","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Edwin Lin","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://edwinlin70.github.io/"},"publisher":{"@type":"Organization","name":"Edwin的个人网站","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
