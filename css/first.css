@@ -1615,3 +1615,17 @@ ul.list-v >li>a:hover {
     padding: 0px;
   }
 }
+.subtitle {
+  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+  display: inline-block !important;
+  margin-top: 10px;
+  padding: 6px 14px;
+  background: #e5e7eb !important;
+  color: #374151 !important;
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
